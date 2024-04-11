@@ -26,6 +26,7 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: $(targetId).offset().top
         }, 800);
+        console.log("canon");
     });
 
 });
