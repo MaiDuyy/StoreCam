@@ -1,0 +1,27 @@
+#logo {
+  float: left;
+   width: 120px ; 
+   height: 120px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+#sigup:hover,#login:hover{
+    border-bottom: 1px solid;
+}
+#dangnhap,#sigup,#login{
+    margin: 10px;
+}
+span{
+    margin: 10px 10px ;
+}
+#contact{
+    margin: 10px;
+    padding-right:800px  ;
+}

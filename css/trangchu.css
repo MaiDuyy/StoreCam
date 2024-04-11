@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background: url("./back.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #262626;
+    height: 100vh;
+
+}
+
+header {
+
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo a img {
+    width: 264px;
+    height: 40px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 20px 20px;
+}
+
+.menu a:hover {
+    color: yellow;
+
+    border-bottom: 1px solid yellow;
+}
+
+section {
+    height: 80%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    float: left;
+    height: 300px;
+    width: 500px;
+    left: 220px;
+    top: 180px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+.photography {
+    position: absolute;
+    top: 10px;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.workshop {
+    position: absolute;
+    top: 80px;
+    font-size: 60px;
+    color: #ffed03;
+    font-family: "Pacifico";
+    text-align: center;
+}
+
+#registernow {
+    position: absolute;
+    top: 200px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+
+}
+.address{
+    margin: 20px 20px;
+    color: #ffffff;
+}
+.contact{
+    margin-bottom: 100px;
+}
+#registernow a {
+    color: #131313;
+    font-size: 17px;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 20px;
+}
+.gg-facebook ,.gg-instagram,.gg-instagram,.gg-google,.gg-youtube{
+  
+    border-radius: 50px;
+    margin: 10px;
+    color: yellow;
+}
+.gg-youtube{
+    margin-top: 15px;
+
+}
+
+.box{
+    position: relative;
+    float: left;
+}
+.gg-search{
+    position: absolute;
+    left:45px;
+    top:43px;
+}
+.input {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    /* font-family: Comic Sans MS; */
+    font-size: 17px;
+   color: #ffffff;
+    outline: none;
+    transition: .5s;
+    margin: 10px;
+    width: 350px;
+    background: #3b3640;
+    border-radius: 10px;
+    
+}
+  
+.box i{
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}

@@ -1,0 +1,48 @@
+.menu ul { 
+    list-style: none;
+     overflow: hidden; 
+}
+.menu ul li a { 
+   text-decoration: none;
+   color: black;
+}
+ .menu ul li.li1 {
+ 
+ margin: 10px;
+    text-align: center;
+  display: inline-block;
+}
+.menu{
+    margin-left: 100px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:hover{
+    background-color: bisque;
+}
+.dropmenu {
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+
+}
+ li:hover  ul.dropmenu {
+    opacity: 1;
+    visibility: visible;
+  
+}
+.dropmenu  li {
+    width: 30px;
+    border: 1px solid black;
+}
+
+.li1{
+    border: 1px solid black;
+    border-radius: 50px;
+    width:100px;
+    padding: 2px;
+}
+
+
