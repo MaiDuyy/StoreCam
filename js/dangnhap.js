@@ -16,7 +16,7 @@ function checkuser(){
     var username = document.getElementById("user").value;
     var password = document.getElementById("pass").value;
 
-    var storedAccountInfo = localStorage.getItem("accountInfo");
+    var storedAccountInfo = localStorage.getItem("acc");
     if (storedAccountInfo) {
         var accountInfo = JSON.parse(storedAccountInfo);
         if (username === accountInfo.username && password === accountInfo.password) {
