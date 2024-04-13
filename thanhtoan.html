@@ -1,0 +1,212 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/web2.css">
+    <link rel="stylesheet" href="./css/thanhtoan.css">
+    <!-- <link rel="stylesheet" href="./css/chitiet.css"> -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/web2.js"></script>
+    <script src="./js/data.js"></script>
+   
+    <title>ThanhToan</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="img1" src="./hinhanh/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class=" navbar-nav space">
+          <li class="nav-item">
+            <a class="nav-link" href="trangchu.html">Trang Chủ</a>
+          </li>
+          <li class="nav-item open dropdownn  ">
+            <a class="nav-link " href="web2.html">Sản phẩm <i class="gg-arrow-down-o"></i> </a>
+            <div class="dropdown-options bg-dark">
+              <a id="clicksony" href="web2.html ">Sony</a>
+              <a id="clickpanasonic" href="web2.html">Panasonic</a>
+              <a id="clickcanon" href="web2.html">Canon</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Thông tin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+          </li>
+          <li class="nav-item space2">
+            <a href="#">
+              <i class="gg-search "></i>
+            </a>
+          </li>
+          <li class="nav-item space3">
+            <a href="#">
+              <i class="gg-shopping-cart "></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="title">
+            <h2>Đặt hàng</h2>
+        </div>
+      <div class="d-flex">
+        <form action="" method="">
+          <label>
+            <span class="fname">Tên <span class="required">*</span></span>
+            <input type="text" name="fname">
+          </label>
+          <label>
+            <span class="lname">Họ <span class="required">*</span></span>
+            <input type="text" name="lname">
+          </label>
+          <label>
+            <span>Địa chỉ <span class="required">*</span></span>
+            <input type="text" name="houseadd" placeholder="Số nhà hoặc địa chỉ đường" required>
+          </label>
+         
+          <label>
+            <span>Thành phố <span class="required">*</span></span>
+            <input type="text" name="city"> 
+          </label>
+          <label>
+            <span>Quận <span class="required">*</span></span>
+            <input type="text" name="city"> 
+          </label>
+          <label>
+            <span>Số điện thoại <span class="required">*</span></span>
+            <input type="tel" name="city"> 
+          </label>
+          <label>
+            <span>Email <span class="required">*</span></span>
+            <input type="email" name="city"> 
+          </label>
+        </form>
+        <div class="Yorder">
+          <table>
+            <tr>
+              <th colspan="2">Đơn hàng của bạn</th>
+            </tr>
+            <tr>
+              <td class="soluong">Tên sản phẩm + số lượng </td>
+              <td class="gia"></td>
+            </tr>
+            <tr>
+              <td>Tổng tiền</td>
+              <td class="tong"></td>
+            </tr>
+            <tr>
+              <td>Vận chuyển</td>
+              <td>Free shipping</td>
+            </tr>
+          </table><br>
+          <div>
+            <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+          </div>
+          <p>
+            Thực hiện thanh toán trực tiếp vào tài khoản ngân hàng của chúng tôi. Vui lòng sử dụng ID đơn hàng của bạn làm tài liệu tham khảo thanh toán.
+          </p>
+          <div>
+            <input type="radio" name="dbt" value="cd"> Cash on Delivery
+          </div>
+          <!-- <div>
+            <input type="radio" name="dbt" value="cd"> Paypal <span>
+            <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="" width="50">
+            </span>
+          </div> -->
+         <a href="thankyou.html"> <button type="button">Thanh toán</button></a>
+        </div><!-- Yorder -->
+       </div>
+      </div>
+
+      <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <!-- <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming
+            programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code
+            wants to be simple. We will help programmers build up concepts in different programming languages that
+            include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p> -->
+
+
+          <p class="text-justify">Dù bạn là một nhà nhiếp ảnh chuyên nghiệp hay chỉ đơn giản là một người yêu thích chụp
+            ảnh, trang web về camera của chúng tôi là nguồn tài nguyên không thể thiếu. Với một loạt các bài viết, đánh
+            giá, và hướng dẫn từ các chuyên gia trong ngành, chúng tôi cung cấp cho bạn mọi thứ bạn cần để nâng cao kỹ
+            năng chụp ảnh và hiểu biết sâu rộng về thế giới của nhiếp ảnh. Từ các bài viết hướng dẫn sử dụng máy ảnh cho
+            đến tin tức về công nghệ mới nhất, từ đánh giá sản phẩm đến các kỹ thuật chụp ảnh chuyên sâu, chúng tôi cam
+            kết mang lại cho bạn trải nghiệm trực tuyến tốt nhất để thúc đẩy sự sáng tạo và khám phá vô tận trong lĩnh
+            vực nhiếp ảnh. Hãy tham gia cùng chúng tôi và khám phá thế giới đầy màu sắc của nhiếp ảnh ngay hôm nay!</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Jquery</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Contribute</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <!-- <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by -->
+            <!-- <a href="#">Scanfcode</a>. -->
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="gg-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="gg-twitter"></i></a></li>
+            <!-- <li><a class="dribbble" href="#"><i class="gg-dribbble"></i></a></li> -->
+            <!-- <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script>
+    const sanpham = JSON.parse(localStorage.getItem("mua"));
+var  sl  = document.querySelector('.gia').textContent = sanpham.soluong;
+    console.log(sanpham)
+    window.onload = function(){
+        // document.querySelector('.gia').textContent = Number(sanpham.gia).toLocaleString('en')+"đ";
+        document.querySelector('.gia').textContent = sanpham.ten +   "   (Số lượng : " + sl + ")";
+       
+
+        document.querySelector('.tong').textContent = Number(sanpham.tongGia).toLocaleString('en')+"đ";
+    }
+ 
+</script>
+</body>
+</html>

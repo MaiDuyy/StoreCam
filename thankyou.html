@@ -1,31 +1,31 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
-  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
-  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down-o.css' rel='stylesheet'>
-  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
-  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
-  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/dribbble.css' rel='stylesheet'>
-  <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/web2.css">
-  <link rel="stylesheet" href="./css/chitiet.css">
-  <link rel="stylesheet" href="./css/footer.css">
-  <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
-  <script src="./js/jquery-3.7.1.min.js"></script>
-  <script src="./js/web2.js"></script>
-  <script src="./js/data.js"></script>
-  <script src="./js/chitiet.js"></script>
-  <title>ChiTiet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/web2.css">
+    <link rel="stylesheet" href="./css/thankyou.css">
+    <!-- <link rel="stylesheet" href="./css/thanhtoan.css"> -->
+    <!-- <link rel="stylesheet" href="./css/chitiet.css"> -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- <script src="./js/web2.js"></script> -->
+    <!-- <script src="./js/data.js"></script> -->
+   
+    <title>ThankYou</title>
 </head>
-
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="img1" src="./hinhanh/logo.png" alt=""></a>
+      <a class="navbar-brand" href="#">
+        <img class="img1" src="./hinhanh/logo.png" alt="">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,12 +35,14 @@
             <a class="nav-link" href="trangchu.html">Trang Chủ</a>
           </li>
           <li class="nav-item open dropdownn  ">
-            <a class="nav-link " href="web2.html">Sản phẩm <i class="gg-arrow-down-o"></i> </a>
+            <a class="nav-link " href="#">Sản phẩm <i class="gg-arrow-down-o"></i>
+            </a>
             <div class="dropdown-options bg-dark">
-              <a id="clicksony" href="web2.html ">Sony</a>
-              <a id="clickpanasonic" href="web2.html">Panasonic</a>
-              <a id="clickcanon" href="web2.html">Canon</a>
+              <a id="clicksony" href="#sony">Sony</a>
+              <a id="clickpanasonic" href="#panasonic">Panasonic</a>
+              <a id="clickcanon" href="#canon"  >Canon</a>
             </div>
+            <!-- <ul class="dropdown bg-dark"><li class="nav-item"><a href="#" class="nav-link">Sony</a></li><li class="nav-item"><a href="#" class="nav-link">Panasonic</a></li><li class="nav-item"><a href="#" class="nav-link">Canon</a></li></ul> -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Thông tin</a>
@@ -48,64 +50,40 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Liên hệ</a>
           </li>
-
-
           <li class="nav-item space2">
-            <a href="#"> <i class="gg-search "></i></a>
-
+            <a href="#">
+              <i class="gg-search "></i>
+            </a>
           </li>
           <li class="nav-item space3">
-            <a href="#"> <i class="gg-shopping-cart "></i></a>
+            <a href="#">
+              <i class="gg-shopping-cart "></i>
+            </a>
           </li>
-
-
         </ul>
       </div>
     </div>
   </nav>
-
-  <menu class="container-fluid">
-    <div class="row">
-      <div class="container-fluid">
-        <div class="pagination">
-          <!-- <p>Home > Shop > Women > Jacket </p> -->
-        </div>
-        <!-- product section -->
-        <section class="product-container">
-          <!-- left side -->
-          <div class="img-card">
-            <img src="" alt="" id="featured-image">
-            <!-- small img -->
-            <div class="small-Card">
-              <img src="" alt="" class="small-Img">
-              <!-- <img src="img/small-img-2.png" alt="" class="small-Img">
-                            <img src="img/small-img-3.png" alt="" class="small-Img">
-                            <img src="img/image-1.png" alt="" class="small-Img"> -->
-            </div>
-          </div>
-          <!-- Right side -->
-          <div class="product-info">
-            <h3></h3> <!-- name -->
-            <span></span>
-            <h5></h5> <!-- price] -->
-            <p></p> <!-- mota -->
-
-
-            <div class="quantity">
-              <p>Só lượng:</p>
-              <input id="soluong" type="number" placeholder="dd" value="1" min="1" max="100" />
-              <!-- <input id="soluong" type="number" value="1" min="1" /> -->
-              <a class="mua" id="mua"><button>Mua</button></a>
-            </div>
-
-          </div>
-        </section>
+  <div class=content>
+    <div class="wrapper-1">
+      <div class="wrapper-2">
+        <h1><span>Cảm ơn </span> <span>bạn !</span></h1>
+        <p>Cảm ơn bạn đã mua sản phảm <span ></span>  </p>
+        <p>Chúc bạn một ngày tốt lành  </p>
+        <a href="trangchu.html">
+            <button class="go-home">
+                Trở về
+                </button>
+        </a>
       </div>
-    </div>
-  </menu>
+      <div class="footer-like">
+        
+      </div>
+  </div>
+  </div>
+  
 
-
-  <!-- Site footer -->
+      <!-- Site footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="row">
@@ -151,7 +129,7 @@
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
           <!-- <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by -->
-          <!-- <a href="#">Scanfcode</a>. -->
+            <!-- <a href="#">Scanfcode</a>. -->
           </p>
         </div>
 
@@ -166,21 +144,18 @@
       </div>
     </div>
   </footer>
-</body>
-
 <script>
-  $("#mua").click(function () {
-    const sanpham = {
-      id: id,
-      soluong: $("#soluong").val(),
-      ten: chitiet.name,
-      gia: chitiet.price.replaceAll(",", "").replaceAll("₫", ""),
-      tongGia: parseInt($("#soluong").val()) * parseFloat(chitiet.price.replaceAll(",", "").replaceAll("₫", ""))
+    const sanpham = JSON.parse(localStorage.getItem("mua"));
+var  sl  = document.querySelector('.gia').textContent = sanpham.soluong;
+    console.log(sanpham)
+    window.onload = function(){
+        // document.querySelector('.gia').textContent = Number(sanpham.gia).toLocaleString('en')+"đ";
+        document.querySelector('.gia').textContent = sanpham.ten +   "   (Số lượng : " + sl + ")";
+       
+
+        document.querySelector('.tong').textContent = Number(sanpham.tongGia).toLocaleString('en')+"đ";
     }
-    localStorage.setItem("mua", JSON.stringify(sanpham));
-
-    window.location = "thanhtoan.html"
-  });
+ 
 </script>
-
+</body>
 </html>

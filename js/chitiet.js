@@ -1,6 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const hang = params.get("hang");
+
 let chitiet = [];
 if (hang === "sony") {
     chitiet = data_sony.find(function (e) {
@@ -27,4 +28,5 @@ window.onload = (event) => {
     document.querySelector('.product-info p').textContent = chitiet.mota;
     document.querySelector('.small-Card img').src = chitiet.imgUrl;
     document.querySelector('.product-container .img-card img').src = chitiet.imgUrl;
+   
 };

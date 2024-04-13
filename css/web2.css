@@ -140,9 +140,16 @@ nav{
   .gg-arrow-down-o{
     float: right;
     margin: 2 0 2 2 ;
+ 
   }
   .card-text{
     height: 30px;
+  }
+  .gg-search , .gg-shopping-cart {
+    color: #ddd;
+  }
+  .gg-search:hover , .gg-shopping-car:hover {
+    color: #9b9999;
   }
 
   /* footer */

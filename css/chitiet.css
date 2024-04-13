@@ -115,7 +115,8 @@
   }
   
   button {
-    background: #17696a;
+    /* background: #17696a; */
+    background-color: #000000;  
     border-radius: 4px;
     padding: 10px 37px;
     border: none;
@@ -124,7 +125,9 @@
   }
   
   button:hover {
-    background: #ff4242;
+    cursor: pointer;
+    /* background: #428a7d; */
+    background: #d4c601;
     transition: ease-in 0.4s;
   }
   
@@ -181,4 +184,8 @@
 
   .product-info h5{
     font-weight: bold;
+  }
+  .mua{
+    text-decoration: none;
+    color: black;
   }
