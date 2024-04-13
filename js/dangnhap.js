@@ -33,25 +33,7 @@ function checkuser(){
     
 }
 
-// function local(){
-//     var username = document.getElementById("user").value;
-//     var password = document.getElementById("pass").value;
 
-   
-//     var accountInfo = {
-//       username: username,
-//       password: password
-//     };
-
-
-//     var accountInfoJSON = JSON.stringify(accountInfo);
-
-  
-//     localStorage.setItem("accountInfo", accountInfoJSON);
-
-//     // alert("Thông tin tài khoản đã được lưu vào local storage.");
-//     window.location = "web2.html";
-// }
 
 
 
