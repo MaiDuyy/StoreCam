@@ -1,156 +1,186 @@
 @font-face {
-    font-family: Pacifico;
-    src: url(Pacifico-Regular.ttf);
+  font-family: Pacifico;
+  src: url(Pacifico-Regular.ttf);
 }
 
 @font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-VariableFont_wght.ttf);
+  font-family: Montserrat;
+  src: url(Montserrat-VariableFont_wght.ttf);
 }
+
 * {
-    /* margin: 0; */
-    box-sizing: border-box;
-    font-family: Montserrat;
-    /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+  font-family: Montserrat;
+  /* padding: 0; */
 }
 
-.img1{
-    width: 264px;
-    height: 40px;
-}
-.space{
-    margin-left:100px ;
-}
-.space2{
-    margin-left:600px ;
-    margin-top: 15px;
-}
-.space3{
-    margin-left: 50px;
-    margin-top: 10px;
+.img1 {
+  width: 264px;
+  height: 40px;
 }
 
-.btnrepair{
-    background-color: #EF5127;
-    color: white;
-    width: 100%;
-    border: 1px solid orangered;
-  
-}
-.btnrepair:hover{
-    background-color: #ef5227dd;
-    border: 1px solid orangered;
-}
-.h{
-    height: 400px;
-}
-.card:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-.card:hover .xemchitiet{
- opacity: 1;
-
-}
-.test{
-    background-color: #EF5127;
-}
-.s1 p{
-    font-size:12px ;
-}
-.money{
-    font-weight: bold;
-}
-.star{
-    color:  #EF5127;
-}
-.xemchitiet{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   opacity: 0;
-   width:90%;
-}
-nav{
-    z-index: 99;
+.space {
+  margin-left: 100px;
 }
 
-.dropdown{
-    position: absolute;
-    margin-top: 11px;
-    z-index: 1;
-    /* border: 1px solid black; */
-    opacity: 0;
+.space2 {
+  margin-left: 600px;
+  margin-top: 15px;
 }
+
+.space3 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.btnrepair {
+  background-color: #EF5127;
+  color: white;
+  width: 100%;
+  border: 1px solid orangered;
+
+}
+
+.btnrepair:hover {
+  background-color: #ef5227dd;
+  border: 1px solid orangered;
+}
+
+.h {
+  height: 400px;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card:hover .xemchitiet {
+  opacity: 1;
+
+}
+
+.test {
+  background-color: #EF5127;
+}
+
+.s1 p {
+  font-size: 12px;
+}
+
+.money {
+  font-weight: bold;
+}
+
+.star {
+  color: #EF5127;
+}
+
+.xemchitiet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 90%;
+}
+
+nav {
+  z-index: 99;
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 11px;
+  z-index: 1;
+  /* border: 1px solid black; */
+  opacity: 0;
+}
+
 /* .open:hover .dropdown{
     opacity: 1;
 } */
 
 .dropdownn {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .dropdownn{
-    border:none;
-    border-radius:5px;
-    /* padding:15px 30px; */
-    /* font-size:18px; */
-    cursor:pointer;
-    
-  }
-  
-  /* button:hover{
+  display: inline-block;
+  position: relative;
+}
+
+.dropdownn {
+  border: none;
+  border-radius: 5px;
+  /* padding:15px 30px; */
+  /* font-size:18px; */
+  cursor: pointer;
+
+}
+
+/* button:hover{
     background-color:#ddd;
   } */
-  
-  .dropdown-options {
-    display: none;
-    position: absolute;
-    overflow: auto;
-    background-color:#fff;
-    border-radius:5px;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
 
 
-  
-  }
-  
-  .dropdownn:hover .dropdown-options {
-    display: block;
-   
-  }
-  
-  .dropdown-options a {
-    display: block;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-    padding:20px 40px;
-    
-  }
-  
-  .dropdown-options a:hover {
-    color: #0a0a23;
-    background-color: #ddd;
-    border-radius:5px;
-    
-  }
-  .gg-arrow-down-o{
-    float: right;
-    margin: 2 0 2 2 ;
- 
-  }
-  .card-text{
-    height: 30px;
-  }
-  .gg-search , .gg-shopping-cart {
-    color: #ddd;
-  }
-  .gg-search:hover , .gg-shopping-car:hover {
-    color: #9b9999;
-  }
 
-  /* footer */
-  
+}
+
+.dropdownn:hover .dropdown-options {
+  display: block;
+
+}
+
+.dropdown-options a {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 40px;
+
+}
+
+.dropdown-options a:hover {
+  /* color: #0a0a23; */
+  background-color: #1a1919;
+  color: yellow;
+  border-radius: 5px;
+  border-bottom: 1px solid yellow;
+
+}
+
+.gg-arrow-down-o {
+  float: right;
+  margin: 2 0 2 2;
+
+}
+
+.card-text {
+  height: 30px;
+}
+
+.gg-search,
+.gg-shopping-cart {
+  color: #ddd;
+}
+
+.gg-search:hover,
+.gg-shopping-car:hover {
+  color: #9b9999;
+}
+
+
+.navh:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}
+ li{
+  display: inline-block;
+ }
+/* footer */
