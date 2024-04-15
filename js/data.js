@@ -103,5 +103,5 @@ var data_canon = [
         "price": "17.472.350₫",
         "mota": "Với thiết kế phong cách cổ điển tích hợp cảm biến APS-C 24,2 megapixel, bộ xử lý hình ảnh DIGIC 7 và hệ thống Dual Pixel CMOS AF cho tốc độ chụp Live View nhanh, máy ảnh EOS M6 sở hữu khả năng chụp hình ngang bằng với dòng máy ảnh DSLR. Với kích thước nhỏ gọn nặng 390g, máy ảnh này có màn hình LCD loại lật, rất thích hợp để chụp ảnh chân dung. Máy ảnh được trang bị hệ thống Ổn định Hình ảnh Kết hợp để quay phim, hoạt động cả với ống kính không có chức năng ổn định hình ảnh và thực hiện ổn định hình ảnh năm trục, có thể điều chỉnh đáng kể độ rung của máy xảy ra trong một số trường hợp như khi bạn quay phim khi đang đi bộ, giúp tạo ra thước phim giả tài liệu (footage) chuyên nghiệp và chất lượng.",
         "imgUrl": "hinhanh/canon4.png"
-    },
+    }
 ];
